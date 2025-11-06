@@ -1,4 +1,4 @@
-package org.traccar.client
+package com.traczi.client
 
 import io.flutter.embedding.android.FlutterActivity
 

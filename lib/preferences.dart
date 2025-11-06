@@ -63,7 +63,7 @@ class Preferences {
       await _migrate();
     }
     await instance.setString(id, instance.getString(id) ?? (Random().nextInt(90000000) + 10000000).toString());
-    await instance.setString(url, instance.getString(url) ?? 'http://demo.traccar.org:5055');
+    await instance.setString(url, instance.getString(url) ?? 'https://api.traczi.com/osmand');
     await instance.setString(accuracy, instance.getString(accuracy) ?? 'medium');
     await instance.setInt(interval, instance.getInt(interval) ?? 300);
     await instance.setInt(distance, instance.getInt(distance) ?? 75);

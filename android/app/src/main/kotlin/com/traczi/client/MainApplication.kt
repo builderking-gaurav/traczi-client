@@ -1,4 +1,4 @@
-package org.traccar.client
+package com.traczi.client
 
 import android.app.Application
 import org.slf4j.LoggerFactory
